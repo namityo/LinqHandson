@@ -16,7 +16,7 @@ namespace LinqHandson
 
 
             // ここに書く
-            var results = data.OrderByDescending(v => v);
+            var results = data;
 
 
 

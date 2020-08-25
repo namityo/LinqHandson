@@ -6,9 +6,7 @@
 
 
         ' 国語の点数の男子上位3人の名前
-        Dim results = records _
-            .GroupBy(Function(r) r.Subject) _
-            .Select(Function(g) String.Format("{0} {1}", g.Key, g.Select(Function(r) r.Score).Sum() / g.Count()))
+        Dim results = records
 
 
         ' 結果表示

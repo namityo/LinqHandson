@@ -6,7 +6,7 @@
 
 
         ' ここに書く
-        Dim results = data.OrderByDescending(Function(v) v)
+        Dim results = data
 
 
 

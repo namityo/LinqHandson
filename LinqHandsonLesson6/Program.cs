@@ -15,9 +15,7 @@ namespace LinqHandson
 
 
             // 国語の点数の男子上位3人の名前
-            var results = records
-                .GroupBy(r => r.Subject)
-                .Select(g => string.Format("{0} {1}", g.Key, g.Select(r => r.Score).Sum() / g.Count()));
+            var results = records;
 
 
             // 結果表示

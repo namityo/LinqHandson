@@ -6,7 +6,7 @@
 
 
         ' ここに書く
-        Dim results = data.Select(Function(value) value * 2)
+        Dim results = data
 
 
 

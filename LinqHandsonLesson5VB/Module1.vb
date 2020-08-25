@@ -6,12 +6,7 @@
 
 
         ' 国語の点数の男子上位3人の名前
-        Dim results = records _
-            .Where(Function(r) r.Subject = Record.教科.国語) _
-            .Where(Function(r) r.Sex = Record.性別.男) _
-            .OrderByDescending(Function(r) r.Score) _
-            .Take(3) _
-            .Select(Function(r) r.Name)
+        Dim results = records
 
 
         ' 結果表示

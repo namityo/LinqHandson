@@ -16,7 +16,7 @@ namespace LinqHandson
 
 
             // ここに書く
-            var results = data.Select(value => value * 2);
+            var results = data;
 
 
 

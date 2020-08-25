@@ -16,7 +16,7 @@ namespace LinqHandson
 
 
             // ここに書く
-            var results = data.Where(v => v > 50);
+            var results = data;
 
 
 

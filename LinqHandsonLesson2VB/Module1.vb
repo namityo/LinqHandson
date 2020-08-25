@@ -6,7 +6,7 @@
 
 
         ' ここに書く
-        Dim results = data.Where(Function(v) v > 50)
+        Dim results = data
 
 
 

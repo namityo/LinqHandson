@@ -15,12 +15,7 @@ namespace LinqHandson
 
 
             // 国語の点数の男子上位3人の名前
-            var results = records
-                .Where(r => r.Subject == Record.教科.国語)
-                .Where(r => r.Sex == Record.性別.男)
-                .OrderByDescending(r => r.Score)
-                .Take(3)
-                .Select(r => r.Name);
+            var results = records;
 
 
             // 結果表示
