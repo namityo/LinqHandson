@@ -23,7 +23,7 @@ namespace LinqHandson
             // 結果表示
             foreach (var result in results)
             {
-                Console.WriteLine($"値は{result}です");
+                Console.WriteLine(string.Format("値は{0}です", result));
             }
             Console.ReadKey();
         }
